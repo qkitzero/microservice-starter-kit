@@ -2,7 +2,7 @@ syntax= "proto3";
 
 option go_package = "pkg/grpc";
 
-package microservicestarterkit;
+package api;
 
 service HelloService {
     rpc Hello (HelloRequest) returns (HelloResponse);
